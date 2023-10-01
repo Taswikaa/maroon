@@ -1,0 +1,7 @@
+@import url(../../vendor/normalize.css);
+@import url(../../vendor/fonts.css);
+
+* {
+  box-sizing: border-box;
+  font-family: 'M PLUS 1p', sans-serif;
+}

@@ -4,4 +4,25 @@
 * {
   box-sizing: border-box;
   font-family: 'M PLUS 1p', sans-serif;
+  color: #122947;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.app {
+  background-color: #F8F8F6;
 }

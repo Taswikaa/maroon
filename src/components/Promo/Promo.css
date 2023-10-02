@@ -1,0 +1,61 @@
+.promo {
+  min-height: 562px;
+  background-image: url(../../images/content/promo-bg-320.jpg);
+  max-width: 320px;
+  margin: 0 auto;
+  padding-top: 290px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.promo2 {
+  background-image: none;
+  background-color: #F4F1ED;
+  max-width: 290px;
+  margin-top: 75px;
+  padding-top: 60px;
+  padding-bottom: 110px;
+  min-height: 0;
+  position: relative;
+  margin-bottom: 272px;
+}
+
+.promo2::after {
+  position: absolute;
+  content: '';
+  width: 250px;
+  height: 252px;
+  background-image: url(../../images/content/promo-2-320.png);
+  bottom: -190px;
+}
+
+.promo__title {
+  font-family: 'Raleway';
+  font-weight: 500;
+  max-width: 260px;
+  line-height: 125%;
+  font-size: 28px;
+  text-align: center;
+  margin: 0 0 10px 0;
+}
+
+.promo__subtitle {
+  font-size: 16px;
+  text-align: center;
+  margin: 0 0 25px 0;
+  max-width: 255px;
+  line-height: 140%;
+  letter-spacing: .4px;
+}
+
+.promo2__subtitle {
+  max-width: 226px;
+}
+
+.promo__button {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 11px 28px 11px;
+  border: 1px solid #B3BAC1;
+}

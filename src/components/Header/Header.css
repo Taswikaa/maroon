@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  padding: 30px 15px 0;
+  justify-content: space-between;
+}
+
+.header__logo {
+  width: 85px;
+  height: 13px;
+  margin-left: 26px;
+  margin-top: 1px;
+}
+
+.header__links {
+  display: flex;
+  column-gap: 20px;
+}
+
+.header__burger {
+  border-bottom: 2px solid #122947;
+  border-top: 2px solid #122947;
+  width: 22px;
+  height: 12px;
+  position: relative;
+  margin-top: 1px;
+}
+
+.header__burger::after {
+  position: absolute;
+  content: '';
+  width: 22px;
+  height: 2px;
+  background-color: #122947;
+  left: 0;
+  top: 3px;
+}
